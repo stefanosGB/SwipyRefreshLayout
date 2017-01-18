@@ -204,14 +204,14 @@ public class SwipyRefreshLayout extends ViewGroup {
      * there is a toolbar or actionbar present.
      *
      * @param scale Set to true if there is no view at a higher z-order than
-     *            where the progress spinner is set to appear.
+     *              where the progress spinner is set to appear.
      * @param start The offset in pixels from the top of this view at which the
-     *            progress spinner should appear.
-     * @param end The offset in pixels from the top of this view at which the
-     *            progress spinner should come to rest after a successful swipe
-     *            gesture.
+     *              progress spinner should appear.
+     * @param end   The offset in pixels from the top of this view at which the
+     *              progress spinner should come to rest after a successful swipe
+     *              gesture.
      */
-    /*
+    
     public void setProgressViewOffset(boolean scale, int start, int end) {
         mScale = scale;
         mCircleView.setVisibility(View.GONE);
@@ -219,7 +219,7 @@ public class SwipyRefreshLayout extends ViewGroup {
         mSpinnerFinalOffset = end;
         mUsingCustomStart = true;
         mCircleView.invalidate();
-    }*/
+    }
 
     /**
      * The refresh indicator resting position is always positioned near the top
